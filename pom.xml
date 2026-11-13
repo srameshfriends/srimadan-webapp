@@ -7,7 +7,7 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>3.0.1</version>
+        <version>4.1.2</version>
         <relativePath/>
     </parent>
 
@@ -17,15 +17,13 @@
 
     <packaging>jar</packaging>
 
-    <name>srimalar-doc</name>
-    <description>Srimalar Document</description>
+    <name>srimadan-webapp</name>
+    <description>SRIMADAN web application service</description>
 
     <properties>
-        <maven.compiler.source>17</maven.compiler.source>
-        <maven.compiler.target>17</maven.compiler.target>
-        <java.release>17</java.release>
-        <java.compiler>17</java.compiler>
-        <java.version>17</java.version>
+        <maven.compiler.source>25</maven.compiler.source>
+        <maven.compiler.target>25</maven.compiler.target>
+        <java.version>25</java.version>
         <junit-jupiter.version>5.3.2</junit-jupiter.version>
     </properties>
 
